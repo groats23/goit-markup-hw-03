@@ -1,0 +1,105 @@
+/* Body text (Text, SLATE) #434455 */
+
+/* CTAs Focused Active states Links (Primary Brand, Iris) #4D5AE5 */
+
+/* CTAs (Pressed state, OCEAN) #404BBF */
+
+/* Overlays Shadows Headings (Dark, Navy blue) #2E2F42 */
+
+/* Valid fields Success messages (Success, GREEN #31D0AA) */
+
+/* Helper text Deemphasized text (Subtle Text, LIGHT SLATE) #8E8F99 */
+
+/* Accent color Hairlines Subtle backgrounds (Accent, cornflower #E7E9FC) */
+
+/*  Light mode backgrounds Light mode Dialogs/alerts (Light, CLOUD) #F4F4FD */
+
+/*  Overlay (Modal overlay, NAVY BLUE modal) #2E2F42 */
+
+/*  Hero image background (Hero background, GREY) 2E2F42 */
+
+/* White #FFFFFF */
+
+/* Основной цвет фона #E5E5E5 */
+
+
+/* Styles for index.html */
+:root {
+    --primary-text-color:#2E2F42;
+    --title-text-color: #434455;
+    --accent-tex-color: #4D5AE5;
+    --primary-white-color: #FFFFFF;
+    --button-hover-color: #404BBF
+}
+
+body {
+    color:var(--primary-text-color);
+    }
+
+    /* logo */
+.logo {
+    color: var(--accent-tex-color);
+}
+
+.list {
+    list-style: none;
+}
+.header-logo {
+    color: var(--primary-text-color);
+}
+
+/* address */
+.address .link{
+color: var(--title-text-color);
+}
+.address .link:hover,
+.address .link:focus {
+color: var(--accent-tex-color);
+}
+
+/* site-nav */
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-tex-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-tex-color);
+}
+
+/* hero */
+.hero-title {
+    color: #e25252;
+}
+
+/* section */
+.advantages-list .title,
+.team-list .title{
+    color: var(--title-text-color);
+}
+
+/* Button */
+.hero-button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-tex-color) ;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--button-hover-color);
+}
+
+
+
+
+
+
+
+
+
+
+
