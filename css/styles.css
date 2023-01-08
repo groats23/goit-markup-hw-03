@@ -19,7 +19,7 @@
 
 body {
   color: var(--primary-text-color);
-  background-color: #e5e5e5;
+  background-color: var(--white-color);
   font-family: var(--primary-font);
   letter-spacing: 0.02em;
 }
@@ -46,6 +46,11 @@ body {
 .header-logo-web {
   color: var(--accent-text-color);
 }
+
+/* Еще один вариант дать синий цвет логотипу */
+/* .header-logo > span {
+  color: var(--accent-text-color);
+} */
 
 /* ========== Button ========== */
 
@@ -136,8 +141,9 @@ body {
 /* ==================== Hero ==================== */
 
 /* hero */
+/* Temporarily the color is black */
 .hero-title {
-  color: var(--white-color);
+  color: var(--primary-text-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.1;
@@ -148,7 +154,7 @@ body {
 
 /* Temporarily the color is black */
 .footer-text {
-  color: #000000;
+  color: var(--primary-text-color);
 }
 
 .title {
@@ -165,7 +171,7 @@ body {
   line-height: 1.5;
 
   /* Temporarily the color is black */
-  color: #000000;
+  color: var(--primary-text-color);
 }
 
 /* ==================== Colors ==================== */
