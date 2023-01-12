@@ -1,179 +1,3 @@
-:root {
-  --primary-font: Roboto, sans-serif;
-  --secondary-font: Raleway, sans-serif;
-  --primary-text-color: #2e2f42;
-  --desc-text-color: #434455;
-  --accent-text-color: #4d5ae5;
-  --white-color: #ffffff;
-  --button-hover-color: #404bbf;
-  --light-color: #f4f4fd;
-}
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
-body {
-  color: var(--primary-text-color);
-  background-color: var(--white-color);
-  font-family: var(--primary-font);
-  letter-spacing: 0.02em;
-}
-
-/* ==================== COMPONENTS ==================== */
-
-/* logo */
-.header-logo {
-  color: var(--primary-text-color);
-  font-family: var(--secondary-font);
-  letter-spacing: 0.03em;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.3;
-  display: flex;
-  align-items: center;
-  text-transform: uppercase;
-}
-
-.heder-logo-Light {
-  color: var(--light-color);
-}
-
-.header-logo-web {
-  color: var(--accent-text-color);
-}
-
-/* Еще один вариант дать синий цвет логотипу */
-/* .header-logo > span {
-  color: var(--accent-text-color);
-} */
-
-/* ========== Button ========== */
-
-.btn-options {
-  font-family: var(--primary-font);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-}
-
-/* button-index.html */
-.modal-btn {
-  color: var(--white-color);
-  background-color: var(--accent-text-color);
-}
-
-.modal-btn:hover,
-.modal-btn:focus {
-  background-color: var(--button-hover-color);
-}
-
-/* button-portfolio.html */
-.btn-portfolio {
-  color: var(--accent-text-color);
-  background-color: var(--light-color);
-  text-align: center;
-}
-
-.btn-portfolio:hover,
-.btn-portfolio:focus {
-  color: var(--white-color);
-  background-color: var(--button-hover-color);
-}
-
-.subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: var(--primary-text-color);
-}
-
-.desc-text {
-  font-size: 16px;
-  line-height: 1.5;
-
-  color: var(--desc-text-color);
-}
-
-/* ==================== /COMPONENTS ==================== */
-
-/* ==================== Header ==================== */
-
-/* menu */
-.menu-link {
-  color: var(--primary-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.menu-link:hover,
-.menu-link:focus {
-  color: var(--accent-text-color);
-}
-
-.menu-link.current {
-  color: var(--accent-text-color);
-}
-
-/* email address and phone number */
-.contact-link {
-  color: var(--desc-text-color);
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-  color: var(--accent-text-color);
-}
-
-/* ==================== /Header ==================== */
-
-/* ==================== Hero ==================== */
-
-/* hero */
-/* Temporarily the color is black */
-.hero-title {
-  color: var(--primary-text-color);
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.1;
-  text-align: center;
-}
-
-/* ==================== /Hero ==================== */
-
-/* Temporarily the color is black */
-.footer-text {
-  color: var(--primary-text-color);
-}
-
-.title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-
-  text-align: center;
-  text-transform: capitalize;
-}
-
-.content-card {
-  font-size: 16px;
-  line-height: 1.5;
-
-  /* Temporarily the color is black */
-  color: var(--primary-text-color);
-}
-
 /* ==================== Colors ==================== */
 
 /* Body text (Text, SLATE) #434455 */
@@ -203,3 +27,368 @@ body {
 /* Styles for index.html */
 
 /* ==================== /Colors ==================== */
+
+/* ==================== Global styles ==================== */
+
+:root {
+  --primary-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  --primary-text-color: #2e2f42;
+  --desc-text-color: #434455;
+  --accent-text-color: #4d5ae5;
+  --footer-text-color: #e7e9fc;
+  --hairlines-color: #e7e9fc;
+  --white-color: #ffffff;
+  --button-hover-color: #404bbf;
+  --light-color: #f4f4fd;
+  --distance-1: 24px;
+  --distance-2: 48px;
+  --distance-3: 120px;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+  font-family: var(--primary-font);
+  letter-spacing: 0.02em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul,
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ==================== /Global styles ==================== */
+
+/* ==================== COMPONENTS ==================== */
+
+/* logo */
+.header-logo {
+  margin-right: 76px;
+  display: flex;
+
+  color: var(--primary-text-color);
+  font-family: var(--secondary-font);
+  letter-spacing: 0.03em;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.heder-logo-Light {
+  color: var(--light-color);
+}
+
+.header-logo-web {
+  color: var(--accent-text-color);
+}
+
+.logo {
+  padding-top: var(--distance-1);
+  padding-bottom: var(--distance-1);
+  display: block;
+}
+
+/* Еще один вариант дать синий цвет логотипу */
+/* .header-logo > span {
+  color: var(--accent-text-color);
+} */
+
+/* ========== Button ========== */
+
+.btn-options {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 16px 32px;
+  border: 4px solid transparent;
+
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+}
+
+/* button-index.html */
+.modal-btn {
+  color: var(--white-color);
+  background-color: var(--accent-text-color);
+  margin-bottom: 188px;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--button-hover-color);
+}
+
+/* button-portfolio.html */
+.btn-portfolio {
+  color: var(--accent-text-color);
+  background-color: var(--light-color);
+  text-align: center;
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  color: var(--white-color);
+  background-color: var(--button-hover-color);
+}
+/* ========== /Button ========== */
+
+.subtitle {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.desc-text {
+  color: var(--desc-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* container */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  width: 1158px;
+}
+
+/* ==================== /COMPONENTS ==================== */
+
+/* ==================== Header ==================== */
+
+/* menu */
+.menu-link {
+  padding-top: var(--distance-1);
+  padding-bottom: var(--distance-1);
+  display: block;
+
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-text-color);
+}
+
+.menu-link.current {
+  color: var(--accent-text-color);
+}
+
+/* email address and phone number */
+.contact-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: block;
+
+  color: var(--desc-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-text-color);
+}
+
+.page-header-container {
+  display: flex;
+
+  align-items: center;
+}
+
+.page-nav {
+  display: flex;
+
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.menu .menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.contact-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+/* ==================== /Header ==================== */
+
+/* ==================== Hero ==================== */
+
+/* hero */
+.hero-title {
+  padding-top: 188px;
+  padding-bottom: 48px;
+
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
+}
+
+.vvv {
+}
+
+.hero {
+  background-color: var(--primary-text-color);
+  text-align: center;
+}
+
+/* ==================== /Hero ==================== */
+
+.title {
+  margin-top: 120px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.content-card {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.item-gen {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--distance-1));
+  margin-top: calc(-1 * var(--distance-1));
+}
+
+/* ==================== Our advantages section 1 ==================== */
+
+.advantages-list > .advantages-item {
+  flex-basis: calc(100% / 4 - var(--distance-1));
+  margin-left: var(--distance-1);
+  margin-top: var(--distance-3);
+}
+
+/* ==================== /Our advantages section 1 ==================== */
+
+/* ==================== Content portfolio ==================== */
+
+.content-list > .content-item {
+  flex-basis: calc(100% / 3 - var(--distance-1));
+  margin-left: var(--distance-1);
+  margin-top: 72px;
+}
+
+.content-text {
+  margin-top: 8px;
+}
+
+.card-text {
+  padding: 32px;
+  padding-left: 16px;
+  border: 1px solid var(--hairlines-color);
+  border-top: none;
+}
+
+/* ==================== /Content portfolio ==================== */
+
+/* ==================== Our Team section 3 ==================== */
+
+.team-section {
+  background-color: var(--light-color);
+  margin-top: var(--distance-3);
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.team-item {
+  flex-basis: calc((100% - 72px) / 4);
+  margin-top: 120px;
+}
+
+.name-card {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.team-subtitle {
+  text-align: center;
+}
+
+/* ==================== /Our Team section 3 ==================== */
+
+/* ==================== footer ==================== */
+
+.footer-section {
+  background-color: var(--primary-text-color);
+}
+.footer-text {
+  color: var(--footer-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.team-text {
+  text-align: center;
+  margin-top: 8px;
+}
+
+/* ==================== /footer ==================== */
