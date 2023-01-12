@@ -106,6 +106,7 @@ img {
 
 .heder-logo-Light {
   color: var(--light-color);
+  padding-top: 100px;
 }
 
 .header-logo-web {
@@ -318,31 +319,30 @@ img {
 .advantages-list > .advantages-item {
   flex-basis: calc(100% / 4 - var(--distance-1));
   margin-left: var(--distance-1);
+}
+
+.advantages-text {
+  margin-top: 8px;
+}
+
+.advantages-subtitle {
   margin-top: var(--distance-3);
 }
 
 /* ==================== /Our advantages section 1 ==================== */
 
-/* ==================== Content portfolio ==================== */
+/* ==================== What are we doing section 2 ==================== */
+.illustration-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
 
-.content-list > .content-item {
-  flex-basis: calc(100% / 3 - var(--distance-1));
-  margin-left: var(--distance-1);
+.illustration-item {
   margin-top: 72px;
 }
 
-.content-text {
-  margin-top: 8px;
-}
-
-.card-text {
-  padding: 32px;
-  padding-left: 16px;
-  border: 1px solid var(--hairlines-color);
-  border-top: none;
-}
-
-/* ==================== /Content portfolio ==================== */
+/* ==================== /What are we doing section 2 ==================== */
 
 /* ==================== Our Team section 3 ==================== */
 
@@ -373,7 +373,38 @@ img {
   text-align: center;
 }
 
+.team-title {
+  padding-top: 120px;
+}
+
+.team-text {
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 152px;
+}
+
 /* ==================== /Our Team section 3 ==================== */
+
+/* ==================== Content portfolio ==================== */
+
+.content-list > .content-item {
+  flex-basis: calc(100% / 3 - var(--distance-1));
+  margin-left: var(--distance-1);
+  margin-top: 72px;
+}
+
+.content-text {
+  margin-top: 8px;
+}
+
+.card-text {
+  padding: 32px;
+  padding-left: 16px;
+  border: 1px solid var(--hairlines-color);
+  border-top: none;
+}
+
+/* ==================== /Content portfolio ==================== */
 
 /* ==================== footer ==================== */
 
@@ -381,14 +412,15 @@ img {
   background-color: var(--primary-text-color);
 }
 .footer-text {
+  margin-top: 16px;
+  padding-bottom: 100px;
+
   color: var(--footer-text-color);
   font-size: 16px;
   line-height: 1.5;
 }
 
-.team-text {
-  text-align: center;
-  margin-top: 8px;
+. .footer-container {
 }
 
 /* ==================== /footer ==================== */
