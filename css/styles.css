@@ -396,9 +396,14 @@ img {
 .content-list > .content-item {
   flex-basis: calc(100% / 3 - var(--distance-1));
   margin-left: var(--distance-1);
+  margin-bottom: 48px;
 }
 
 .content-item:last-child {
+  margin-bottom: 0;
+}
+
+.content-list > .content-item:nth-child(n + 6) {
   margin-bottom: 0;
 }
 
@@ -411,7 +416,6 @@ img {
   padding-left: 16px;
   border: 1px solid var(--hairlines-color);
   border-top: none;
-  margin-bottom: 48px;
 }
 
 /* ==================== /Content portfolio ==================== */
