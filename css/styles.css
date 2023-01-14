@@ -119,11 +119,6 @@ img {
   display: block;
 }
 
-/* Еще один вариант дать синий цвет логотипу */
-/* .header-logo > span {
-  color: var(--accent-text-color);
-} */
-
 /* ========== Button ========== */
 
 .btn-options {
@@ -156,6 +151,8 @@ img {
 
 /* button-portfolio.html */
 .btn-portfolio {
+  margin-bottom: 84px;
+
   color: var(--accent-text-color);
   background-color: var(--light-color);
   text-align: center;
@@ -238,6 +235,13 @@ img {
   align-items: center;
 }
 
+.page-header {
+  border: 1px solid var(--hairlines-color);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
 .page-nav {
   display: flex;
 
@@ -277,9 +281,6 @@ img {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.1;
-}
-
-.vvv {
 }
 
 .hero {
@@ -360,6 +361,12 @@ img {
 .team-item {
   flex-basis: calc((100% - 72px) / 4);
   margin-top: 120px;
+  margin-bottom: 152px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .name-card {
@@ -380,7 +387,6 @@ img {
 .team-text {
   text-align: center;
   margin-top: 8px;
-  margin-bottom: 152px;
 }
 
 /* ==================== /Our Team section 3 ==================== */
@@ -390,7 +396,10 @@ img {
 .content-list > .content-item {
   flex-basis: calc(100% / 3 - var(--distance-1));
   margin-left: var(--distance-1);
-  margin-top: 72px;
+}
+
+.content-item:last-child {
+  margin-bottom: 0;
 }
 
 .content-text {
@@ -402,9 +411,25 @@ img {
   padding-left: 16px;
   border: 1px solid var(--hairlines-color);
   border-top: none;
+  margin-bottom: 48px;
 }
 
 /* ==================== /Content portfolio ==================== */
+
+/* ==================== portfolio-section ==================== */
+.btn-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 96px;
+}
+
+.portfolio-item {
+  margin-left: var(--distance-1);
+}
+
+/* ==================== /portfolio-section ==================== */
 
 /* ==================== footer ==================== */
 
@@ -418,9 +443,6 @@ img {
   color: var(--footer-text-color);
   font-size: 16px;
   line-height: 1.5;
-}
-
-. .footer-container {
 }
 
 /* ==================== /footer ==================== */
