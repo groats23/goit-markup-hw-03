@@ -1,33 +1,3 @@
-/* ==================== Colors ==================== */
-
-/* Body text (Text, SLATE) #434455 */
-
-/* CTAs Focused Active states Links (Primary Brand, Iris) #4D5AE5 */
-
-/* CTAs (Pressed state, OCEAN) #404BBF */
-
-/* Overlays Shadows Headings (Dark, Navy blue) #2E2F42 */
-
-/* Valid fields Success messages (Success, GREEN #31D0AA) */
-
-/* Helper text Deemphasized text (Subtle Text, LIGHT SLATE) #8E8F99 */
-
-/* Accent color Hairlines Subtle backgrounds (Accent, cornflower #E7E9FC) */
-
-/*  Light mode backgrounds Light mode Dialogs/alerts (Light, CLOUD) #F4F4FD */
-
-/*  Overlay (Modal overlay, NAVY BLUE modal) #2E2F42 */
-
-/*  Hero image background (Hero background, GREY) 2E2F42 */
-
-/* White #FFFFFF */
-
-/* Основной цвет фона #E5E5E5 */
-
-/* Styles for index.html */
-
-/* ==================== /Colors ==================== */
-
 /* ==================== Global styles ==================== */
 
 :root {
@@ -183,6 +153,7 @@ img {
 }
 
 /* container */
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -219,8 +190,8 @@ img {
 
 /* email address and phone number */
 .contact-link {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: var(--distance-1);
+  padding-bottom: var(--distance-1);
   display: block;
 
   color: var(--desc-text-color);
@@ -279,7 +250,7 @@ img {
 /* hero */
 .hero-title {
   padding-top: 192px;
-  padding-bottom: 48px;
+  padding-bottom: var(--distance-2);
 
   color: var(--white-color);
   font-weight: 700;
@@ -331,10 +302,11 @@ img {
 /* ==================== /Our advantages section 1 ==================== */
 
 /* ==================== What are we doing section 2 ==================== */
+
 .illustration-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: var(--distance-1);
 }
 
 .illustration-item {
@@ -342,7 +314,7 @@ img {
 }
 
 .illustration-section {
-  padding-bottom: 120px;
+  padding-bottom: var(--distance-3);
 }
 
 /* ==================== /What are we doing section 2 ==================== */
@@ -357,7 +329,7 @@ img {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: var(--distance-1);
 }
 
 .team-item {
@@ -397,7 +369,7 @@ img {
 .content-list > .content-item {
   flex-basis: calc(100% / 3 - var(--distance-1));
   margin-left: var(--distance-1);
-  margin-bottom: 48px;
+  margin-bottom: var(--distance-2);
 }
 
 .content-item:last-child {
@@ -422,10 +394,11 @@ img {
 /* ==================== /Content portfolio ==================== */
 
 /* ==================== portfolio-section ==================== */
+
 .btn-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: var(--distance-1);
   justify-content: center;
 }
 
@@ -439,7 +412,7 @@ img {
 
 .portfolio-section {
   padding-top: 96px;
-  padding-bottom: 120px;
+  padding-bottom: var(--distance-3);
 }
 
 /* ==================== /portfolio-section ==================== */
@@ -459,3 +432,33 @@ img {
 }
 
 /* ==================== /footer ==================== */
+
+/* ==================== Colors ==================== */
+
+/* Body text (Text, SLATE) #434455 */
+
+/* CTAs Focused Active states Links (Primary Brand, Iris) #4D5AE5 */
+
+/* CTAs (Pressed state, OCEAN) #404BBF */
+
+/* Overlays Shadows Headings (Dark, Navy blue) #2E2F42 */
+
+/* Valid fields Success messages (Success, GREEN #31D0AA) */
+
+/* Helper text Deemphasized text (Subtle Text, LIGHT SLATE) #8E8F99 */
+
+/* Accent color Hairlines Subtle backgrounds (Accent, cornflower #E7E9FC) */
+
+/*  Light mode backgrounds Light mode Dialogs/alerts (Light, CLOUD) #F4F4FD */
+
+/*  Overlay (Modal overlay, NAVY BLUE modal) #2E2F42 */
+
+/*  Hero image background (Hero background, GREY) 2E2F42 */
+
+/* White #FFFFFF */
+
+/* Основной цвет фона #E5E5E5 */
+
+/* Styles for index.html */
+
+/* ==================== /Colors ==================== */
