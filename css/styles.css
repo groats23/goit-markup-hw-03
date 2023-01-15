@@ -145,7 +145,7 @@ img {
 .modal-btn {
   color: var(--white-color);
   background-color: var(--accent-text-color);
-  margin-bottom: 188px;
+  margin-bottom: 192px;
 }
 
 .modal-btn:hover,
@@ -155,7 +155,7 @@ img {
 
 /* button-portfolio.html */
 .btn-portfolio {
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 
   color: var(--accent-text-color);
   background-color: var(--light-color);
@@ -427,6 +427,10 @@ img {
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
+}
+
+.portfolio-container {
+  margin-bottom: 72px;
 }
 
 .portfolio-item {
