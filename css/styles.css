@@ -85,6 +85,10 @@ img {
   height: auto;
 }
 
+.section {
+  padding-top: var(--distance-3);
+}
+
 /* ==================== /Global styles ==================== */
 
 /* ==================== COMPONENTS ==================== */
@@ -151,7 +155,7 @@ img {
 
 /* button-portfolio.html */
 .btn-portfolio {
-  margin-bottom: 84px;
+  margin-bottom: 72px;
 
   color: var(--accent-text-color);
   background-color: var(--light-color);
@@ -274,7 +278,7 @@ img {
 
 /* hero */
 .hero-title {
-  padding-top: 188px;
+  padding-top: 192px;
   padding-bottom: 48px;
 
   color: var(--white-color);
@@ -291,8 +295,6 @@ img {
 /* ==================== /Hero ==================== */
 
 .title {
-  margin-top: 120px;
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -326,10 +328,6 @@ img {
   margin-top: 8px;
 }
 
-.advantages-subtitle {
-  margin-top: var(--distance-3);
-}
-
 /* ==================== /Our advantages section 1 ==================== */
 
 /* ==================== What are we doing section 2 ==================== */
@@ -343,13 +341,17 @@ img {
   margin-top: 72px;
 }
 
+.illustration-section {
+  padding-bottom: 120px;
+}
+
 /* ==================== /What are we doing section 2 ==================== */
 
 /* ==================== Our Team section 3 ==================== */
 
 .team-section {
   background-color: var(--light-color);
-  margin-top: var(--distance-3);
+  padding-bottom: var(--distance-3);
 }
 
 .team-list {
@@ -360,8 +362,6 @@ img {
 
 .team-item {
   flex-basis: calc((100% - 72px) / 4);
-  margin-top: 120px;
-  margin-bottom: 152px;
 
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -380,13 +380,14 @@ img {
   text-align: center;
 }
 
-.team-title {
-  padding-top: 120px;
-}
-
 .team-text {
   text-align: center;
   margin-top: 8px;
+}
+
+.team-title {
+  padding-top: var(--distance-3);
+  padding-bottom: 72px;
 }
 
 /* ==================== /Our Team section 3 ==================== */
@@ -403,7 +404,7 @@ img {
   margin-bottom: 0;
 }
 
-.content-list > .content-item:nth-child(n + 6) {
+.content-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
 
@@ -426,11 +427,15 @@ img {
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
-  margin-top: 96px;
 }
 
 .portfolio-item {
   margin-left: var(--distance-1);
+}
+
+.portfolio-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 /* ==================== /portfolio-section ==================== */
