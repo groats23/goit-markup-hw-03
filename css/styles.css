@@ -80,7 +80,6 @@ img {
 
 .heder-logo-Light {
   color: var(--light-color);
-  padding-top: 100px;
 }
 
 .header-logo-web {
@@ -98,7 +97,6 @@ img {
 .btn-options {
   display: inline-block;
   border-radius: 4px;
-  padding: 16px 32px;
   border: 4px solid transparent;
 
   font-family: var(--primary-font);
@@ -116,6 +114,7 @@ img {
   color: var(--white-color);
   background-color: var(--accent-text-color);
   margin-top: 48px;
+  padding: 16px 32px;
 }
 
 .modal-btn:hover,
@@ -125,7 +124,7 @@ img {
 
 /* button-portfolio.html */
 .btn-portfolio {
-  /* margin-bottom: 72px; */
+  padding: 12px 24px;
 
   color: var(--accent-text-color);
   background-color: var(--light-color);
@@ -312,8 +311,8 @@ img {
   gap: var(--distance-1);
 }
 
-.illustration-item {
-  margin-top: 72px;
+.illustration-title {
+  margin-bottom: 72px;
 }
 
 .illustration-section {
@@ -326,6 +325,7 @@ img {
 
 .team-section {
   background-color: var(--light-color);
+  padding-top: var(--distance-3);
   padding-bottom: var(--distance-3);
 }
 
@@ -361,8 +361,7 @@ img {
 }
 
 .team-title {
-  padding-top: var(--distance-3);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 /* ==================== /Our Team section 3 ==================== */
@@ -405,8 +404,8 @@ img {
   justify-content: center;
 }
 
-.portfolio-container {
-  margin-bottom: 72px;
+.content-list {
+  margin-top: 72px;
 }
 
 .portfolio-item {
@@ -424,10 +423,12 @@ img {
 
 .footer-section {
   background-color: var(--primary-text-color);
+
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-text {
   margin-top: 16px;
-  padding-bottom: 100px;
 
   width: 264px;
   color: var(--footer-text-color);
