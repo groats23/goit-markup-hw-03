@@ -399,17 +399,12 @@ img {
 
 .btn-list {
   display: flex;
-  flex-wrap: wrap;
   gap: var(--distance-1);
   justify-content: center;
 }
 
 .content-list {
   margin-top: 72px;
-}
-
-.portfolio-item {
-  margin-left: var(--distance-1);
 }
 
 .portfolio-section {
